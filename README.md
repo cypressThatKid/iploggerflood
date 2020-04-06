@@ -4,6 +4,12 @@
 <h1>Uses</h1>
 THIS IS NOT TO BE USED AS A DDoS/DoS Script. These requests will not overwhelm even the weakest systems.
 <p>
-All These requests will do is fill up the logs to mess with whatever malicious actions the person was trying to do that sent the link.
+This is to troll booters that send ip logger links with intentions to grab your IP Address.
 <p>
-It's late so I will continue README later, but GLHF!!
+<h1>Credits</h1>
+Credits go to qolhf and his brain.
+<p>
+<h1>Side Notes</h1>
+This project took 15 mins, I haven't found any bugs but if u find any email me at qolhf@riseup.net
+<p>
+ 
