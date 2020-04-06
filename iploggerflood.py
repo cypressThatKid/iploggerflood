@@ -1,6 +1,5 @@
 import requests
 import sys
-import os
 count = 0
 def help():
   help = str('''
