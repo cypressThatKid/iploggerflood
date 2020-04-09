@@ -1,5 +1,6 @@
 import requests
 import sys
+import os
 count = 0
 def help():
   help = str('''
@@ -28,8 +29,11 @@ elif len(sys.argv) == 3:
     sys.exit()
   elif "--domain" in sys.argv:
     while True:
-      r = requests.get(site)
-      count = count + 1
-      print("Sent request number {} to {}!".format(count, site))
+      site = sys.argv[2]
+      headers = {
+        'User-Agent': 'SymIPLoggerFlooder/1.0 (Compatable With Linux/Windows) UsingPyRequests/:) (Block Agent/IP If Abusing) {Tool Made by qolhf} {Symphanny On Top}',
+      }
+      r = requests.get(site, headers=headers)
+      print("Sent request to {} and got code {}!".format(site, r.status_code))
   else:
     help()
