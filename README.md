@@ -6,6 +6,7 @@ THIS IS NOT TO BE USED AS A DDoS/DoS Script. These requests will not overwhelm e
 <p>
 This is to troll booters that send ip logger links with intentions to grab your IP Address.
 <p>
+Also, please don't use this on random sites, this is only intended for IP loggers!
 <h1>Credits</h1>
 Credits go to qolhf and his brain.
 <p>
