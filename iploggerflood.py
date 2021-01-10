@@ -4,7 +4,7 @@ import os
 count = 0
 def help():
 	help = str('''
-	IP LOGGER FLOODER - qolhf
+	IP LOGGER FLOODER - cypress
 	
 	ARGUMENTS MARKED WITH * ARE REQUIRED!
 	
@@ -31,7 +31,7 @@ elif len(sys.argv) == 3:
 		while True:
 			site = sys.argv[2]
 			headers = {
-				'User-Agent': 'SymIPLoggerFlooder/1.0 (Compatable With Linux/Windows) UsingPyRequests/:) (Block Agent/IP If Abusing) {Tool Made by qolhf} {Symphanny On Top}',
+				'User-Agent': 'IPFLODDER/1.0 (Compatable With Linux/Windows) UsingPyRequests/:) (Block Agent/IP If Abusing) {Tool Made by cypress} {Symphanny On Top}',
 			}
 			r = requests.get(site, headers=headers, proxies=dict(http='socks5://localhost:9050', https='socks5://localhost:9050'))
 			print("Sent request to {} and got code {}!".format(site, r.status_code))
